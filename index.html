@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herb Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Herb Encyclopedia</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search herbs... 🔍">
+            <button class="filter-btn"><i class="ri-equalizer-fill"></i></button>
+            <button><i class="ri-bookmark-line"></i></button>
+            <button><i class="ri-share-fill"></i></button>
+            <button><i class="ri-user-fill"></i></button>
+        </div>
+    </nav>
+    <div id="chatbot"><i class="ri-chat-3-line"></i></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Discover the Power of Natural Herbs</h1>
+            <p>Discover the transformative benefits of natural herbs and integrate them into your daily life for optimal health and wellbeing.</p>
+            <div id="buttons">
+            <button id="exp-herbs">Explore herbs</button>
+            <button class="learn-more-btn">Learn More</button>
+
+            </div>
+        </div>
+        <div id="container">         
+        </div>
+    </section>
+    <div id="page1">
+        <div id="upper">
+            <h1>Embrace the Healing Power of Nature</h1>
+            <p>Natural herbs have been used for centuries to promote physical, mental, and emotional wellbeing. Discover how they can transform your life.</p>
+        </div>
+        <div id="lower">
+            <div class="page1cards">
+                <div class="up">
+                    <i class="ri-leaf-line"></i>
+                    <h2> Natural Remedies</h2>
+                </div>
+                <p>Harness the power of nature's most potent herbs to alleviate a wide range of health concerns.</p>
+            </div>
+            <div class="page1cards">
+                <div class="up">
+                    <i class="ri-hammer-line"></i>
+                    <h2> Traditional Wisdom</h2>
+                </div>
+                <p>Discover the time-honored traditions and ancient knowledge that guide the use of natural herbs.</p>
+            </div>
+            <div class="page1cards">
+                <div class="up">
+                    <i class="ri-drop-line"></i>
+                    <h2> Holistic Wellbeing</h2>
+                </div>
+                <p>Explore how natural herbs can support your physical, mental, and emotional health in a balanced way.</p>
+            </div>
+        </div>
+    </div>
+    <div id="contains">
+        <i class="ri-close-circle-line"></i>
+        <div id="contain"></div>
+    </div>
+    <div id="bigcard">
+    </div>
+    <section id="page2">
+        <div id="p2left">
+            <h1>Discover the Herbs That Can Transform Your Life</h1>
+            <h4>Explore our comprehensive collection of natural herbs and <br> learn how they can support your health and wellbeing.</h4>
+            <p>Herbs have been used for centuries to promote physical, mental, and emotional wellbeing. From reducing inflammation to boosting immunity, natural remedies can transform your life in profound ways. Discover the power of herbs and integrate them into your daily routine for optimal health.</p>
+        </div>
+        <div id="p2right"></div>
+    </section>
+    <!-- Featured Herbs Section -->
+    <section class="featured-herbs">
+        <h2>Featured Herbs</h2>
+        <div class="herb-cards">
+            <div class="herb-card" onclick="openHerbPage('herb1.html')">
+                <img src="https://i.pinimg.com/564x/63/08/4e/63084eddd21908e9ccc40fed9d3defda.jpg" alt="Herb Image">
+                <div class="herb-name">Basil</div>
+            </div>
+            <div class="herb-card" onclick="openHerbPage('herb2.html')">
+                <img src="https://i.pinimg.com/564x/4f/2a/25/4f2a254bf11729dc388835ebc59a5880.jpg" alt="Herb Image">
+                <div class="herb-name">Rosemary</div>
+            </div>
+            <div class="herb-card" onclick="openHerbPage('herb3.html')">
+                <img src="https://i.pinimg.com/564x/4c/e3/0b/4ce30b6f86c24650a9a92269030870e8.jpg" alt="Herb Image">
+                <div class="herb-name">Mint</div>
+            </div>
+            <div class="herb-card" onclick="openHerbPage('herb4.html')">
+                <img src="https://i.pinimg.com/564x/79/4c/be/794cbe424ada70dc31fc886e7f9d8bd8.jpg" alt="Herb Image">
+                <div class="herb-name">Lavender</div>
+            </div>
+            <div class="herb-card" onclick="openHerbPage('herb5.html')">
+                <img src="https://i.pinimg.com/564x/30/f2/90/30f2903b719c3845b91f68a3a52c679d.jpg" alt="Herb Image">
+                <div class="herb-name">Thyme</div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
